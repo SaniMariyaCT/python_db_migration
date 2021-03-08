@@ -4,6 +4,7 @@ import models
 from sqlalchemy import create_engine
 from datetime import datetime 
 
+
 engine = create_engine(config.DATABASE_URI)       #engine
 
 def recreate_database():                          #db create and recreate
